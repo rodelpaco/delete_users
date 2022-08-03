@@ -1,0 +1,6 @@
+---
+# vars file for delete_users
+users_list:
+  - test1
+  - test2
+  - test3

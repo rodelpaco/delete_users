@@ -1,0 +1,7 @@
+- name: Delete Users
+  hosts: redhat_servers
+  ignore_errors: true
+  ignore_unreachable: true
+  become: true
+  roles:
+    - delete_users
